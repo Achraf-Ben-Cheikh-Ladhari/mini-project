@@ -34,7 +34,7 @@ function pink(){
 function heart(){
     time1.style.display="none";
     heartt.style.display="block";
-    heartt.style.marginTop="-40%";
+    heartt.style.marginTop="-45%";
 };
 function timebtn(){
     heartt.style.display="none";

@@ -136,6 +136,7 @@ body{
 .heartp{
     margin-top: -40%;
     color: white;
+    font-size: 30px;
 }
 .heart{
     color: darkred;
