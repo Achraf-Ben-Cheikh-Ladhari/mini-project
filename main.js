@@ -1,5 +1,3 @@
-
- 
 var time1=document.getElementById("timep");
 var heartt=document.getElementById("heart");
 /*Showing Time HOURS MINUTES SECONDS*/
@@ -26,9 +24,14 @@ function prp (){
     img.src="img/darkpurple.png"
 }
 //CHANGING TO PINK
-function pink(){
+/*function pink(){
     img.src="img/pink.png"
-}
+}*/
+//change color with addeventlistener
+var pink=document.getElementById("pink");
+    pink.addEventListener("click",()=>{
+        img.src="img/pink.png";
+    });
 
 //clicking on time
 function heart(){

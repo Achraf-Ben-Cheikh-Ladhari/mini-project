@@ -1,4 +1,3 @@
-
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
@@ -145,11 +144,11 @@ body{
 }
 /*ANIMATION*/
 #heartico{
-    animation-name: beats;
+    animation-name: b;
     animation-duration:0.5s;
     animation-iteration-count: infinite;
 }
-@keyframes beats{
+@keyframes b{
     to{
      transform: scale(1.0);
     }
@@ -157,6 +156,5 @@ body{
         transform: scale(1.5);
     }
 }
-
 
 /*COPYRIGHTS Achraf BEN CHEIKH LADHARI*/
