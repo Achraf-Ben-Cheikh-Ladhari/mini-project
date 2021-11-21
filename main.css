@@ -1,0 +1,161 @@
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.navbar{
+    background-color: #808080;
+    text-align: center;
+}
+.amz{
+    width: 150px;
+    height: 80px;
+}
+.watch{
+    margin-left: 12%;
+    margin-top: 3%;
+    width: 400px;
+    height: 400px;
+}
+.time{
+    margin-top: -53%;
+    margin-left: 52%;
+    color: white;
+}
+.header1{
+    font-size: 40px;
+    margin: -30% 0 0 48%;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.p2{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-right: 8%;
+    padding-top: 2%;
+    margin: 0 0 0 48%
+}
+.slc{
+    margin-left: 48%;
+    font-size:20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.red{
+    border-radius: 5px;
+    margin-left: 48%;
+    background-color: #ca3d22;
+    width: 50px;
+    height: 50px;
+
+}
+.black{
+    margin-top: -3.73%;
+        border-radius: 5px;
+        margin-left: 53%;
+        background-color: #23211f;
+        width: 50px;
+        height: 50px;
+    
+}
+.purple{
+    background-color: #8a5362;
+    margin-top: -3.65%;
+        border-radius: 5px;
+        margin-left: 58%;
+        width: 50px;
+        height: 50px;
+}
+.blue{
+    background-color: #565681;
+    margin-top: -3.65%;
+        border-radius: 5px;
+        margin-left: 63%;
+        width: 50px;
+        height: 50px;
+}
+.pink{
+    background-color: #e9c7be;
+    margin-top: -3.65%;
+        border-radius: 5px;
+        margin-left: 68%;
+        width: 50px;
+        height: 50px;
+}
+
+/*BUTTONS*/
+.btn{
+    margin-left: 48%;
+    width: 100px;
+    height: 50px;
+    background-color:#808080;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    color:aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.btn-h{
+    margin-top: -3.65%;
+    margin-left: 57%;
+    width: 100px;
+    height: 50px;
+    background-color:#808080;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    color:aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.btn-b{
+    margin-top: 2%;
+    margin-left: 52%;
+    width: 120px;
+    height: 60px;
+    background-color:#FF6347;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    color:aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.ahref{
+    text-decoration: none;
+    color: aliceblue;
+}
+.btn:hover{
+    background-color:black;
+}
+.btn-h:hover{
+    background-color:black;
+}
+.btn-b:hover{
+    text-decoration: underline;
+    background-color:darkorange;
+}
+.heartp{
+    margin-top: -40%;
+    color: white;
+}
+.heart{
+    color: darkred;
+    margin-left: 60%;
+    display:none;
+}
+/*ANIMATION*/
+#heartico{
+    animation-name: beats;
+    animation-duration:0.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes beats{
+    to{
+     transform: scale(1.0);
+    }
+    from{
+        transform: scale(1.5);
+    }
+}
+
+
+/*COPYRIGHTS Achraf BEN CHEIKH LADHARI*/
