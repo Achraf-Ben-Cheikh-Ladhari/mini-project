@@ -1,2 +1,2 @@
-# mini-project1
- 
+# mini-project
+ Creating a smartwatch using some JS 
